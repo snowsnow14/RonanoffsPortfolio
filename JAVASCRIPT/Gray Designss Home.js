@@ -13,7 +13,7 @@ $(function(){
     $('.footer-logo').click(function () {
         $('body,html').animate({
             scrollTop: 0
-        }, 500); //ワッハッハ・トルネード（Life is strangeの台風）
+        }, 500); //ワッハッハ
         return false;
     });
 });
