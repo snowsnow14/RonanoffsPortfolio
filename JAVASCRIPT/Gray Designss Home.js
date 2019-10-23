@@ -9,4 +9,11 @@ $(function(){
             $('#menu').show();
         }
     })
+
+    $('.footer-logo').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //ワッハッハ・トルネード（Life is strangeの台風）
+        return false;
+    });
 });
